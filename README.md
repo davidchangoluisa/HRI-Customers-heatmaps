@@ -11,22 +11,21 @@ This ROS package contains the implementations of a
 Ivan, Changoluisa
 Ahmad, Alrashed <br> 
 
-This package has been created as part of the Human-Robot Interaction course of the IFROS Master in the University of Zagreb.
+This project has been created as part of the Human-Robot Interaction course of the IFROS Master in the University of Zagreb.
 
 ---
-### Code description 
+<!-- ### Code description 
 
 **People Heatmap generator** 
 
 
 
 **Customer Heatmap generator**
-
+ -->
 
 
 ## User's Guide 
 ---
-
 To test the system, some input videos are included in the folder /test_videos. 
 
 **Testing the People Heatmap**
@@ -34,30 +33,31 @@ To test the system, some input videos are included in the folder /test_videos.
 The first argument is the path of the input video and the second is the desired name for the resulting video that will be generated after the test. 
 
 ```console
-    python ./customer_heatmap.py test_videos/urban.mp4 urban_heatmap
+    python ./people_heatmap.py test_videos/urban.mp4 urban_people_heatmap
 ```
- After this, a similar result will be shown. 
+ After this, a result similar as the one below will be shown.
  
  <img src="results/customer_urban.gif" width="800">
  
 
 
 **Testing the Customer Heatmap**
-
+ Similarly as for the People Heatmap, the 
 
 ```console
-    rosrun mapping_umar_ivan gridmap_server_node.py
+    python ./customer_heatmap.py test_videos/urban.mp4 urban_customers_heatmap
 ```
- After this, a similar result will be shown. 
+ After this, a result similar as the one below will be shown. 
 
  <img src="results/people_urban.gif" width="800">
 
 
+<!-- 
 ## Future work and To-do list
 - [ ] 
  
-
-
+ -->
+<!-- 
 ## Conclusions
 ---
 - An occupancy grid map generator has been successfully implemented in this ROS package, the generator makes use of laser scans and is able to determine whether a cell is free or occupied by following a probabilistic approach. 
@@ -67,4 +67,5 @@ The first argument is the path of the input video and the second is the desired 
 
 ```python
 
-```
+``` -->
+
