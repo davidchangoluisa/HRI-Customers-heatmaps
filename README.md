@@ -39,7 +39,8 @@ The first argument is the path of the input video and the second is the desired 
 
 
 **Testing the Customer Heatmap**
- Similarly as for the People Heatmap, the 
+
+ Similarly as for the People Heatmap, the first argument correspond to the input video file and the second argument is the desired name for the resulting heatmap in video format. 
 
 ```console
     python ./customer_heatmap.py test_videos/urban.mp4 urban_customers_heatmap
