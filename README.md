@@ -1,8 +1,5 @@
-# Heatmaps for tracking customer behaviou
+# Heatmaps for Consumer Behaviour Tracking by using Deep Learning based Human Detection
 
-This ROS package contains the implementations of a  
-
----
 
 ### About this project
 
